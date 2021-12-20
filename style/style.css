@@ -2,8 +2,22 @@
     background: #fff;
     border: 2px solid #ebebeb;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%);
-    padding: 0;
-    
+    padding: 0; 
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-right div{
+    margin: 0 20px;
+}
+
+.head {
+    border: 1px solid red;
+    padding: 20px;
 }
 
 body {
