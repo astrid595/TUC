@@ -2,8 +2,7 @@
     background: #fff;
     border: 2px solid #ebebeb;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%);
-    padding: 0; 
-    justify-content: space-between;
+    align-items: center;
 }
 
 .header-right {
@@ -22,17 +21,6 @@
 
 body {
     margin: 0;
-}
-
-.head-logo {
-    margin: 10px;
-    align-items: center;
-}
-
-.head-name {
-    position: relative;
-    font-size: 20px;
-    top: -45px;
 }
 
 img {
