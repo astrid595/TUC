@@ -1,5 +1,20 @@
-body {
-    margin: 0;
+:root {
+    --branding-color: #ff7561;
+    --primary-color: hsla(8, 100%, 69%, 0.129);
+    --secondary-color: rgba(245, 178, 101, 0.267);
+    --background-color: #e7e7e7;
+}
+
+.media-top {
+    padding: 0;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.fixed-bar {
+    padding-left: 260px;
+    padding-right: 260px;
 }
 
 .logo {
@@ -9,8 +24,6 @@ body {
 
 .navbar-primary {
     font-size: 20px;
-    border: 2px solid rgba(245, 178, 101, 0.267);
-    color: rgba(245, 178, 101, 0.267);
 }
 
 button:hover {
@@ -20,9 +33,28 @@ button:hover {
 
 .navbar-align {
     text-align: right;
+    margin-left: 300px;
+    padding-left: 250px;
 }
 
+ul {
+    color: var(--branding-color);
+}
 
+.static-strip {
+    background: var(--background-color);
+}
 
-background-color: rgba(245, 178, 101, 0.267);
-#e7e7e7
+.main-body {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+}
