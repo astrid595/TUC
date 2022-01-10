@@ -12,10 +12,6 @@
     margin-right: 20px;
 }
 
-fixed-bar {
-    padding-left: 260px;
-    padding-right: 260px;
-}
 
 .logo {
     width: 100px;
@@ -31,11 +27,7 @@ button:hover {
     cursor: pointer;
 }
 
-.navbar-align {
-    text-align: right;
-    margin-left: 300px;
-    padding-left: 250px;
-}
+
 
 ul {
     color: var(--branding-color);
@@ -57,4 +49,22 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+
+
+
+
+
+///////
+
+fixed-bar {
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+navbar-align {
+    text-align: right;
+    margin-left: 300px;
+    padding-left: 250px;
 }
