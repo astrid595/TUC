@@ -27,10 +27,13 @@ button:hover {
     cursor: pointer;
 }
 
-
-
 ul {
     color: var(--branding-color);
+}
+
+
+.navbar-align {
+    text-align: right;
 }
 
 .static-strip {
@@ -61,10 +64,4 @@ h2 {
 fixed-bar {
     padding-left: 260px;
     padding-right: 260px;
-}
-
-navbar-align {
-    text-align: right;
-    margin-left: 300px;
-    padding-left: 250px;
 }
