@@ -2,55 +2,23 @@
     --branding-color: #ff7561;
     --primary-color: hsla(8, 100%, 69%, 0.129);
     --secondary-color: rgba(245, 178, 101, 0.267);
-    --background-color: rgba(255,255,255,0.2);
-}
-
-.media-top {
-    text-align: right;
-    font-size: 30px;
-    background-color: var(--secondary-color);
-}
-
-.media-top a {
-    color: var(--branding-color);
-}
-
-.media-inst {
-    margin-right: 30px;
-}
-
-.media-spot {
-    margin-right: 100px;
+    --background-color: rgba(255, 255, 255, 0.2);
+    --text-color: rgb(107, 103, 103);
 }
 
 .logo {
-    width: 100px;
-    box-sizing: border-box;
+    max-height: 60px;
 }
 
-.navbar-primary {
-    font-size: 20px;
-}
-
-button:hover {
-    background-color: white;
-    cursor: pointer;
+.navbar-light:hover {
+    color: var(--branding-color);
 }
 
 .fixed-bar {
+    font-size: 20px;
     padding-left: 290px;
     padding-right: 260px;
-    background-color: var(--background-color);
 }
-
-ul {
-    color: var(--branding-color);
-}
-
-.text-color {
-    color: var(--branding-color);
-}
-
 
 .navbar-align {
     text-align: right;
@@ -58,7 +26,16 @@ ul {
     margin-left: 300px;
 }
 
+.text-color {
+    color: black !important;
+}
+
+.active {
+    color: var(--branding-color) !important;
+}
+
 .main-body {
+    color: var(--text-color);
     background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
@@ -72,23 +49,42 @@ h2 {
     font-size: 50px;
 }
 
+h3 {
+    padding: 0;
+}
+
 .mid-section {
+    color: var(--text-color);
+    text-align: center;
     background: var(--background-color);
+    padding: 0;
+}
+
+footer .contact-box {
+    color: var(--text-color);
+    font-size: 30px;
+    background: var(--secondary-color);
+    font-weight: bold;
+    padding: 30px 120px;
+    border-radius: 7px;
+}
+
+footer .social-links a{
+    margin: 0 30px;
+    color: var(--branding-color);
+    background: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
-    
-    .media-top {
-        font-size: 15px;
-    }
-
-    .media-inst {
-        margin-right: 10px;
-    }
-
-    .media-spot {
-        margin-right: 0;
-    }
 
     .fixed-bar {
         padding-left: 0;
