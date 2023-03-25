@@ -69,7 +69,7 @@
     text-align: center;
     color: white;
     background-color: var(--secondary-color);
-    margin: 0 60px;
+    margin: 0;
 }
 
 .trip-box {
@@ -152,6 +152,16 @@ section.secondary {
     grid-template-columns: 1fr 1fr;
     }
 
+.grid-2-columns-first-narrow {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0;
+}
+
+.grid-2-columns-second-narrow {
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0;
+}
+
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
     }
@@ -205,11 +215,14 @@ section.secondary {
         letter-spacing: 3px;
         text-transform: uppercase;
         padding: 16px;
-        background-color: #ff7661c2;
+        background-color: #ff7661a8;
         text-decoration: none;
       }
 
-
+.btn-card:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
 
       
 section h2 {
@@ -390,8 +403,9 @@ footer .social-links a:hover {
   }
 
 .img-profile {
-    width: 230px;
+    width: 250px;
     display: block;
+    margin: 0 auto;
     border-radius: 50%;
 }
 
@@ -401,13 +415,53 @@ footer .social-links a:hover {
 
 .img-blog {
     width: 250px;
-    display: flexbox;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(172, 171, 171);
 }
+.img-blog-right {
+    width: 300px;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(172, 171, 171);
+}
+
 
 .left-note {
     text-align: center;
     padding: 20px 0;
 }
+
+.right-note {
+    padding: 20px 50px;
+
+}
+
+.post-desc {
+    text-align: justify;
+}
+
+.blog-posts {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(172, 171, 171);
+}
+
+.btn-read {
+    color: var(--branding-color);
+    background: white;
+    border: 1px solid var(--branding-color);
+    padding: 5px 30px 8px;
+    border-radius: 10px;
+}
+
+.btn-read:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
+
+
 
 
 @media (max-width: 900px) {
@@ -475,5 +529,30 @@ footer .social-links a:hover {
       .embed {
         aspect-ratio: 16/9;
       }
+
+      .search-bar {
+        display: none;
+      }
+
+      .left-note {
+        display: none;
+      }
+
+      .img-profile {
+        width: 150px;
+      }
+
+      .leftcolumn p {
+        text-align: justify;
+      }
+
+      .posts-pop {
+        display: none;
+      }
+
+      .btn-space {
+        text-align: center;
+      }
+
 
     }
