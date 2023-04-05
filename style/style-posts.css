@@ -7,7 +7,7 @@
 }
 
 .logo {
-    max-height: 60px;
+    max-height: 100px;
 }
 
 .logo-pag {
@@ -63,6 +63,26 @@ h1 {
     width: 25%;
     padding: 0 20px 0 50px;
   }
+
+.rightcolumn h2 {
+    font-size: 35px;
+}
+
+.sign {
+    margin-top: 50px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sign h3 {
+    font-size: 20px;
+    text-align: right;
+}
+
+.sign-img {
+    display: flex;
+    width: 80px;
+}
+
 
 .social-box {
     padding: 20px;
@@ -199,29 +219,51 @@ h5 {
     }
 
     p {
+        text-align: left;
         font-size: 16px;
     }
+
+    .rightcolumn p {
+        text-align: center;
+    }
+
 
     .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0;
         border-right: none;
       }
+    
+    .leftcolumn {
+        padding-bottom: 25px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid var(--branding-color);
+    }
 
-      .img-profile {
+
+    .img-profile {
         width: 150px;
       }
 
     .high-text {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .grid {
         grid-template-columns: 1fr;
     }
 
+    .sign {
+        text-align: right;
+    }
 
-    
+    .sign h3 {
+        font-size: 15px;
+    }
 
+    .sign img {
+        width: 70px;
+        float: right;
+    }
 
     }
