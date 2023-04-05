@@ -4,7 +4,6 @@
     --secondary-color: rgba(245, 178, 102, 0.267);
     --background-color: rgba(255, 255, 255, 0.2);
     --text-color: rgb(107, 103, 103);
-    rgba(172, 171, 171, 0.744)
 }
 
 .logo {
@@ -102,22 +101,39 @@ h5 {
     text-transform: uppercase;
 }
 
-.grid-2-columns-second-narrow {
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 0;
+.grid {
+    display: grid;
+    grid-gap: 30px;
 }
 
-    .left-note {
-        text-align: center;
-        padding: 20px 0;
+.grid-2-columns {
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.grid-2-columns-second-narrow {
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.high-text {
+    margin: 40px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.left-note {
+    text-align: center;
+    padding: 20px 0;
     }
 
-    .img-blog-right {
-        width: 300px;
-        display: flex;
-        margin: 20px auto;
-        border-radius: 20px;
-        box-shadow: 2px 2px 5px rgb(172, 171, 171);
+.img-blog-right {
+    width: 300px;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(172, 171, 171);
     }
 
 .post-desc {
@@ -139,6 +155,23 @@ h5 {
     font-size: 18px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
+}
+
+.posts-pop {
+    margin: 70px 0;
+}
+
+.btn-card {
+    color: var(--branding-color);
+    background: white;
+    border: 1px solid var(--branding-color);
+    padding: 5px 30px 8px;
+    border-radius: 10px;
+}
+
+.btn-card:hover {
+    color: white;
+    background-color: var(--branding-color);
 }
 
 .copyr {
@@ -178,3 +211,17 @@ h5 {
       .img-profile {
         width: 150px;
       }
+
+    .high-text {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    
+
+
+    }

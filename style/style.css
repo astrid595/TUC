@@ -197,9 +197,11 @@ section.secondary {
     }
 
 .img-card {
-    width: 100%;
+    width: 50px;
     display: block;
     }
+
+
 
 .text-center {
     text-align: center;
@@ -546,9 +548,7 @@ footer .social-links a:hover {
         text-align: justify;
       }
 
-      .posts-pop {
-        display: none;
-      }
+    
 
       .btn-space {
         text-align: center;
