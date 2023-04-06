@@ -27,7 +27,9 @@
     max-height: 60px;
 }
 
-
+.logo-pag {
+    max-height: 120px;
+}
 
 .navbar-light:hover {
     color: var(--branding-color);
