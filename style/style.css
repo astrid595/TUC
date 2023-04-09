@@ -65,6 +65,8 @@
 }
 
 .blog-box {
+    font-family: 'Arizonia', cursive;
+    font-size: 150px;
     padding: 20px 0;
     text-align: center;
     background-color: var(--secondary-color);
@@ -73,8 +75,7 @@
 
 .box {
     color: white;
-    font-family: 'Arizonia', cursive;
-    font-size: 150px;
+
 }
 
 .trip-box {
@@ -144,7 +145,8 @@ section.secondary {
     }
       
 .instagram-embeds {
-    margin: 30px 0;
+    margin: 30px 60px;
+    
     }
 
 
@@ -177,6 +179,10 @@ section.secondary {
 
 .grid-3-columns-even {
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 
@@ -252,8 +258,6 @@ section h3 {
       }
 
       footer {
-        
-        background-color: var(--secondary-color);
         background-size: cover;
         background-repeat: no-repeat;
       }
@@ -336,6 +340,7 @@ footer .social-links a:hover {
 }
 
 .copyr {
+    background-color: var(--secondary-color);
     padding: 20px 0px 20px 0;
     font-size: 12px;
     color: var(--text-color);
@@ -427,13 +432,6 @@ footer .social-links a:hover {
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgb(172, 171, 171);
 }
-.img-blog-right {
-    width: 300px;
-    display: flex;
-    margin: 20px auto;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgb(172, 171, 171);
-}
 
 
 .left-note {
@@ -487,7 +485,7 @@ footer .social-links a:hover {
     }
 
     .box {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .right-note {
