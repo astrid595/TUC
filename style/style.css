@@ -65,11 +65,16 @@
 }
 
 .blog-box {
-    padding: 80px 20px;
+    padding: 20px 0;
     text-align: center;
-    color: white;
     background-color: var(--secondary-color);
     margin: 0;
+}
+
+.box {
+    color: white;
+    font-family: 'Arizonia', cursive;
+    font-size: 150px;
 }
 
 .trip-box {
@@ -185,7 +190,7 @@ section.secondary {
     }
 
 .card-body {
-    padding: 30px;
+    padding: 20px;
     }
       
 .card-bottom {
@@ -438,7 +443,6 @@ footer .social-links a:hover {
 
 .right-note {
     padding: 20px 50px;
-
 }
 
 .post-desc {
@@ -482,13 +486,25 @@ footer .social-links a:hover {
         padding: 80px 10px;
     }
 
+    .box {
+        font-size: 60px;
+    }
+
+    .right-note {
+        padding: 20px 25px;
+    }
+
     h1 {
         font-size: 45px;
     }
 
-    h2 {
-        font-size: 25px;
-    }
+    .leftcolumn h2, .rightcolumn h2 {
+            font-size: 25px;
+        }
+    
+    .leftcolumn h5 {
+            font-size: 12px;
+        }
 
     .logo {
         max-height: 110px;
