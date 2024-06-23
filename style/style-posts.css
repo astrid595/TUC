@@ -162,6 +162,13 @@ h5 {
     font-size: 20px;
 }
 
+.text-grid {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .social-links-blog a:hover {
     color: var(--secondary-color);
     background: white;

@@ -29,7 +29,7 @@
 
 .logo-pag {
     max-height: 120px;
-}
+    }
 
 .navbar-light:hover {
     color: var(--branding-color);
@@ -362,16 +362,15 @@ footer {
 
 .bottom-sec {
     width: 100%;
-    padding: 20px 0px 30px 600px;
+    padding: 20px 0px;
     background-color: rgba(245, 178, 102, 0.117);
     height: 70px;
-    display: inline-flex;
+    display: flex;
 }
 
 
 .bottom-sec p {
     padding-top: 10px;
-    text-align: center;
     font-size: 12px;
 }
 
