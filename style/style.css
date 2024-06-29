@@ -594,7 +594,7 @@ footer {
     }
 
     .btn-home {
-        margin-left: 340px;
+        margin-left: 300px;
     }
 
     .btn-pod {
@@ -684,7 +684,7 @@ footer {
         }
 
         .btn-home {
-            margin-left: 240px;
+            margin-left: 60px;
         }
 
         .galery {
@@ -707,4 +707,46 @@ footer {
             padding-left: 0;
             padding-top: 25px;
         }
+
+        section.primary {
+            padding: 30px 50px;
+        }
+
+        section.secondary {
+            padding: 50px 30px;
+        }
+
+        section.podsec-home {
+            padding: 0 0 40px 0;
+            
+        }
+
+        section.podsec-home.grid {
+            grid-template-columns: 400px;
+        }
+
+        .about-podcast {
+            margin: 0;
+        }
+
+        .trazando-pod {
+            width: 250px;
+            margin: 0 0 0 100px;
+        }
+
+        .about-podcast p {
+            margin: 0;
+            padding: 0 20px;
+            font-size: 18px;
+        }
+
+        .pod-pic {
+            width: 300px;
+        }
+
+
+        section.galery {
+            padding: 0 10px;
+        }
+
     }
