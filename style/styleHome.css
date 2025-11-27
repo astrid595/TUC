@@ -131,7 +131,7 @@ section.secondary {
 
 section.primary {
     background-color: var(--secondary-color);
-    padding: 80px 100px;
+    padding: 40px;
 }
 
 
@@ -247,6 +247,11 @@ section.primary {
 
 .about-me {
     text-align: center;
+    padding: 2%;
+}
+
+.about-me-desc {
+    padding: 5%;
 }
 
 .img-card {
