@@ -280,7 +280,7 @@ section.primary {
     text-align: center;
     }
 
-/* .btn-card {
+.btn-card {
         display: block;
         color: white;
         font-weight: 700;
@@ -297,7 +297,7 @@ section.primary {
 .btn-card:hover {
     color: white;
     background-color: var(--branding-color);
-} */
+}
 
 
       
