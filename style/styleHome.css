@@ -317,6 +317,14 @@ section h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.img-gal{
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(172, 171, 171);
+}
+
 
 /* =========================
    FOOTER SECTION
@@ -334,7 +342,6 @@ section h3 {
 .social-home {
     margin: auto;
 }
-
 
 .bottom-sec i {
     text-align: right;
@@ -439,6 +446,14 @@ section h3 {
         height: 1200px;
     }
 
+     .grid-4-columns {
+        grid-template-columns: 2fr;
+    }
+
+    .img-gal {
+        width: 170px;
+    }
+
 /* =========================
    CHANGE TO FOOTER
 ========================= */
@@ -473,8 +488,6 @@ section h3 {
 
 
 
-
-
     }
 
 
@@ -494,14 +507,19 @@ section h3 {
 
         .about-me-desc {
             text-align: center;
+            padding: 0;
         }
 
         .btn-home-sec {
-            margin-left: 60px;
+            margin-left: 40px;
         }
 
         .grid-2-columns {
             grid-template-columns: 1fr;
+        }
+
+        .front-pic {
+            width: 150px;
         }
 
 
@@ -513,16 +531,16 @@ section h3 {
             padding: 50px 30px;
         }
 
+        .img-blog {
+        display: none;
+        }
+
     /* =========================
     CHANGE TO PODCAST
     ========================= */
         
         section.podsec-home {
-            padding: 0 0 40px 0;
-        }
-
-        section.podsec-home.grid {
-            grid-template-columns: 400px;
+            padding: 10px 0 40px 0 ;
         }
 
         .about-podcast {
@@ -541,7 +559,7 @@ section h3 {
         }
 
         .pod-pic {
-            width: 300px;
+            width: 200px;
         }
 
     /* =========================
@@ -549,12 +567,16 @@ section h3 {
     ========================= */
 
         .galery {
-            height: 1220px;
+            height: 1000px;
             margin-bottom: 20px;
         }
 
         section.galery {
             padding: 0 10px;
+        }
+
+        .grid-4-columns {
+            grid-template-columns: 1fr;
         }
     
     /* =========================
@@ -565,7 +587,7 @@ section h3 {
             text-align: center;
             margin-top: 20px;
             background-color: rgba(245, 178, 102, 0.117);
-            height: 70px;
+            height: 20px;
             width: 100%;
             padding: 0;
             display: block;
@@ -574,7 +596,7 @@ section h3 {
 
         .copyr-home p {
             padding-left: 0;
-            padding-top: 25px;
+            padding-top: 0;
         }
 
 
