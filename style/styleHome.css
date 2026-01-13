@@ -369,6 +369,11 @@ section h3 {
 
 @media (max-width: 960px) {
 
+
+/* =========================
+   CHANGE TO HERO
+========================= */
+
     .fixed-bar {
         padding-left: 0;
         padding-right: 0;
@@ -379,23 +384,64 @@ section h3 {
         margin-left: 0;
     }
 
+    .logo {
+        max-height: 110px;
+    }
+
+
+
+/* =========================
+   CHANGE TO ABOUT TUC
+========================= */
+
     .box {
         font-size: 50px;
     }
-
 
     h1 {
         font-size: 45px;
     }
 
 
-    .logo {
-        max-height: 110px;
-    }
+/* =========================
+   CHANGE TO ABOUT ME
+========================= */
 
     .about-me-desc {
         text-align: center;
     }
+
+    .grid-primary {
+        grid-template-columns: 1fr;
+    }
+
+
+/* =========================
+   CHANGE TO POSTS
+========================= */
+
+    .grid-secondary {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+
+/* =========================
+   CHANGE TO PODCAST
+========================= */
+
+
+/* =========================
+   CHANGE TO GALERY
+========================= */
+
+    .galery {
+        margin-bottom: 60px;
+        height: 1200px;
+    }
+
+/* =========================
+   CHANGE TO FOOTER
+========================= */
 
     .btn-home-sec {
         margin-left: 300px;
@@ -419,21 +465,15 @@ section h3 {
         display: none;
     }
 
-    .galery {
-        margin-bottom: 60px;
-        height: 1200px;
-    }
-
+    
     .copyr-home p {
         padding-left: 0;
         padding-top: 25px;
     }
 
-    .grid-secondary {
-        grid-template-columns: 1fr;
-        grid-gap: 32px;
-      }
-  
+
+
+
 
     }
 
@@ -443,6 +483,15 @@ section h3 {
 
     @media (max-width: 750px) {
 
+    /* =========================
+    CHANGE TO ABOUT ME
+    ========================= */
+
+
+        section.primary {
+            padding: 30px 50px;
+        }
+
         .about-me-desc {
             text-align: center;
         }
@@ -451,38 +500,25 @@ section h3 {
             margin-left: 60px;
         }
 
-        .galery {
-            height: 1220px;
-            margin-bottom: 20px;
+        .grid-2-columns {
+            grid-template-columns: 1fr;
         }
 
-        .bottom-sec {
-            text-align: center;
-            margin-top: 20px;
-            background-color: rgba(245, 178, 102, 0.117);
-            height: 70px;
-            width: 100%;
-            padding: 0;
-            display: block;
-            bottom: 0;
-        }
 
-        .copyr-home p {
-            padding-left: 0;
-            padding-top: 25px;
-        }
-
-        section.primary {
-            padding: 30px 50px;
-        }
+    /* =========================
+    CHANGE TO POSTS
+    ========================= */
 
         section.secondary {
             padding: 50px 30px;
         }
 
+    /* =========================
+    CHANGE TO PODCAST
+    ========================= */
+        
         section.podsec-home {
             padding: 0 0 40px 0;
-            
         }
 
         section.podsec-home.grid {
@@ -508,9 +544,38 @@ section h3 {
             width: 300px;
         }
 
+    /* =========================
+    CHANGE TO GALERY
+    ========================= */
+
+        .galery {
+            height: 1220px;
+            margin-bottom: 20px;
+        }
 
         section.galery {
             padding: 0 10px;
         }
+    
+    /* =========================
+    CHANGE TO FOOTER
+    ========================= */
+
+        .bottom-sec {
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgba(245, 178, 102, 0.117);
+            height: 70px;
+            width: 100%;
+            padding: 0;
+            display: block;
+            bottom: 0;
+        }
+
+        .copyr-home p {
+            padding-left: 0;
+            padding-top: 25px;
+        }
+
 
     }
