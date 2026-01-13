@@ -309,12 +309,12 @@ section h3 {
 }
 
 .instagram-embeds {
-    margin: 30px 60px;
+    margin: 30px 0;
     
     }
 
 .grid-4-columns {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
@@ -330,6 +330,11 @@ section h3 {
     height: 70px;
     display: flex;
 }
+
+.social-home {
+    margin: auto;
+}
+
 
 .bottom-sec i {
     text-align: right;
@@ -347,9 +352,6 @@ section h3 {
     background: var(--branding-color);
 }
 
-.social-home {
-    margin: auto;
-}
 
 .copyr-home {
     padding: 10px;
@@ -427,7 +429,7 @@ section h3 {
         padding-top: 25px;
     }
 
-    .grid {
+    .grid-secondary {
         grid-template-columns: 1fr;
         grid-gap: 32px;
       }
