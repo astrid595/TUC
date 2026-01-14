@@ -1,0 +1,136 @@
+:root {
+    --branding-color: #ff7561;
+    --primary-color: hsla(8, 100%, 69%, 0.129);
+    --secondary-color: hsla(32, 88%, 68%, 0.267);
+    --background-color: rgba(255, 255, 255, 0.2);
+    --text-color: rgb(107, 103, 103);
+}
+
+body {
+    background-color: rgba(255, 118, 97, 0.072);
+} 
+
+/* =========================
+   MENU BAR
+========================= */
+
+.fixed-bar {
+    font-size: 15px;
+    padding-left: 20%;
+    background-color: white;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+
+.navbar-align {
+    text-align: right;
+    padding-left: 50%;
+}
+
+.active {
+    color: var(--branding-color) !important;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.title h1 {
+    text-align: center;
+    padding: 40px 80px 80px 80px;
+    color: var(--branding-color);
+    font-size: 60px;
+    margin: 0;
+}
+
+/* =========================
+   COLUMN
+========================= */
+
+
+.card {
+    max-width: 1200px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.grid {
+    text-align: center;
+    display: grid;
+    grid-gap: 25px;
+    
+    }
+
+.conct-grid {
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--primary-color);
+    padding: 100px 0;
+}
+
+.left h1 {
+    color: var(--branding-color);
+}
+
+.right p {
+    margin: 0 auto;
+}
+
+
+
+/* =========================
+   OTHER CONTACT
+========================= */
+
+.other-cont {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.mail-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-disc {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+/* =========================
+   FOOTER SECTION
+========================= */
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+.copyr-home {
+    padding: 20px 10px 10px 10px;
+    font-size: 12px;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+
+
+
+@media (max-width: 750px) {
+
+    .conct-grid {
+        grid-template-columns: 1fr
+    }
+    
+}
