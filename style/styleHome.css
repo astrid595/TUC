@@ -446,7 +446,7 @@ section h3 {
 
     .galery {
         margin-bottom: 60px;
-        height: 1200px;
+        height: 1300px;
     }
 
      .grid-4-columns {
@@ -457,18 +457,18 @@ section h3 {
    CHANGE TO FOOTER
 ========================= */
 
-    .btn-home-sec {
-        margin-left: 300px;
-    }
+
 
     .bottom-sec {
-        text-align: center;
-        padding: 0;
-        height: 60px;
-        bottom: 0;
-        margin-top: 20px;
-        display: block;
-    }
+            text-align: center;
+            margin-top: 0;
+            background-color: rgba(245, 178, 102, 0.117);
+            height: 0;
+            width: 100%;
+            padding: 0;
+            display: block;
+            bottom: 0;
+        }
 
 
     .social-home{

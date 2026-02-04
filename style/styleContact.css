@@ -6,12 +6,10 @@
     --text-color: rgb(107, 103, 103);
 }
 
-body {
-    background-color: rgba(255, 118, 97, 0.072);
-} 
+
 
 /* =========================
-   MENU BAR
+   MENU BAR 
 ========================= */
 
 .fixed-bar {
@@ -39,6 +37,7 @@ body {
 ========================= */
 
 .title h1 {
+    font-weight: bold;
     text-align: center;
     padding: 40px 80px 80px 80px;
     color: var(--branding-color);
@@ -66,7 +65,7 @@ body {
 
 .conct-grid {
     grid-template-columns: 1fr 2fr;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 100px 0;
 }
 
@@ -117,11 +116,11 @@ footer {
 }
 
 .copyr-home {
-    padding: 20px 10px 10px 10px;
+    padding: 40px 10px 10px 10px;
     font-size: 12px;
     color: var(--text-color);
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 
@@ -129,8 +128,22 @@ footer {
 
 @media (max-width: 750px) {
 
+    .title h1 {
+        padding: 40px 80px 30px 80px;
+    }
+
+
     .conct-grid {
         grid-template-columns: 1fr
+    }
+
+    .other-cont {
+        padding-bottom: 20px;
+    }
+
+
+    .copyr-home {
+        padding: 20px 10px 10px 10px;;
     }
     
 }
