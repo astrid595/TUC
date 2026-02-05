@@ -42,7 +42,7 @@
 
 .box {
     color: white;
-
+    padding: 50px 300px;
 }
 
 /* =========================
@@ -250,36 +250,37 @@ h3 {
 }
 
 .box {
-        font-size: 50px;
-    }
+    font-size: 50px;
+    padding: 50px 100px;
+}
 
-    .right-note {
-        padding: 20px 25px;
-    }
+.right-note {
+    padding: 20px 25px;
+}
 
-    h1 {
-        font-size: 45px;
-    }
+h1 {
+   font-size: 45px;
+}
 
-    .leftcolumn h2, .rightcolumn h2 {
-            font-size: 25px;
-        }
+.leftcolumn h2, .rightcolumn h2 {
+    font-size: 25px;
+}
     
-    .leftcolumn h5 {
-            font-size: 12px;
-        }
+.leftcolumn h5 {
+    font-size: 12px;
+}
 
 
 
 .leftcolumn, .rightcolumn {
-        width: 100%;
-        padding: 0;
-      }
+    width: 100%;
+    padding: 0;
+}
 
-      .grid {
-        grid-template-columns: 1fr;
-        grid-gap: 32px;
-      }
+.grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+}
 
 
 .btn-space {
@@ -293,5 +294,15 @@ h3 {
       .img-profile {
         width: 150px;
       }
+
+}
+
+@media (max-width: 750px) {
+
+
+.box {
+    padding: auto;
+}
+
 
 }

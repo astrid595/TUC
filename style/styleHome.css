@@ -450,6 +450,10 @@ section h3 {
         grid-template-columns: 2fr;
     }
 
+    .img-gal {
+        width: 200px;
+    }
+
 /* =========================
    CHANGE TO FOOTER
 ========================= */
