@@ -124,7 +124,7 @@ footer {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
     
     .title h1 {
         padding: 20px 80px 20px 80px;
