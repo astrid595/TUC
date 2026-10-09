@@ -1,34 +1,489 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,500;1,800&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ab9e640b9f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/styleGalery.css">
-    <title>Australia en construcción | TUC</title>
+    <link rel="stylesheet" href="style/styleOz.css">
+    <title>TUC - Australia</title>
     <link rel="icon" href="media/logo.png" type="image/icon type">
 </head>
 <body>
+    <div class="fixed-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+              <a href="https://www.trazandouncamino.com">
+                <img src="media/name.JPG" alt="TUC-logo-name" class="logo d-none d-md-block">
+                <img src="media/logo.png" alt="TUC-logo" class="logo d-block d-md-none">
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-align text-muted" id="navbarNavDropdown">
+              
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="australia.html">Australia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://open.spotify.com/show/21eguq9j9ihajmRmVfHLV2" target="_blank">Podcast</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="posts-blog/aboutme.html">Sobre mí</a>
+                  </li>
+                  <hr class="d-md-none text-black-50">
+                </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
 
 
-  <main class="cont-card">
-    <div class="card">
-      <h1>📷 Australia en construcción</h1>
-      <p>
-        Este espacio está tomando forma poco a poco.
-        Muy pronto encontrarás aquí imágenes, historias visuales y momentos que trazan este camino.
-      </p>
-      <a href="/" class="btn">Volver al inicio</a>
-    </div>
+
+        <main>
+
+    <!-- HERO -->
+    <section class="aus-hero">
+      <div class="aus-hero-overlay"></div>
+
+      <div class="container aus-hero-content">
+        <p class="aus-eyebrow">EXPERIENCIAS · INFORMACIÓN · RECURSOS</p>
+
+        <h1>Australia: un camino<br>
+          <em>por descubrir</em>
+        </h1>
+
+        <p class="aus-hero-description">
+          Un lugar para explorar posibilidades, descubrir otras formas
+          de vivir y encontrar tu propio camino en Australia.
+        </p>
+
+        <a href="#etapas" class="btn-aus">
+          Explora tu camino
+          <i class="fas fa-arrow-down" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <span class="aus-hero-caption">
+        Cada camino comienza en un lugar diferente.
+      </span>
+    </section>
+
+
+    <!-- CINCO PILARES -->
+    <section class="aus-stages section-space" id="etapas">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <span class="section-kicker">TU PUNTO DE PARTIDA</span>
+          <h2>¿En qué etapa estás?</h2>
+          <p>
+            No importa si apenas estás imaginando la posibilidad
+            o si ya has construido una vida aquí. Empieza por donde estés.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#antes" class="stage-card">
+              <div class="stage-image">
+                <img src="media/australia-antes.jpg"
+                  alt="Paisaje australiano para imaginar una nueva aventura"
+                  loading="lazy">
+                <span class="stage-number">01</span>
+              </div>
+              <div class="stage-info">
+                <span class="stage-kicker">EL PRIMER PASO</span>
+                <h3>Antes de Australia</h3>
+                <p>Explora tus opciones</p>
+                <span class="stage-link">Descubre más
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#preparacion" class="stage-card">
+              <div class="stage-image">
+                <img src="media/australia-preparacion.jpg"
+                  alt="Preparativos para viajar a Australia"
+                  loading="lazy">
+                <span class="stage-number">02</span>
+              </div>
+              <div class="stage-info">
+                <span class="stage-kicker">PLANEA TU LLEGADA</span>
+                <h3>Prepárate para Australia</h3>
+                <p>Organiza tu llegada</p>
+                <span class="stage-link">Descubre más
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#vivir" class="stage-card">
+              <div class="stage-image">
+                <img src="media/australia-vivir.jpg"
+                  alt="La vida cotidiana en Australia"
+                  loading="lazy">
+                <span class="stage-number">03</span>
+              </div>
+              <div class="stage-info">
+                <span class="stage-kicker">EL DÍA A DÍA</span>
+                <h3>Vivir en Australia</h3>
+                <p>Resuelve el día a día</p>
+                <span class="stage-link">Descubre más
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#latinoamerica" class="stage-card">
+              <div class="stage-image">
+                <img src="media/australia-latinoamerica.jpg"
+                  alt="Personas compartiendo historias y experiencias"
+                  loading="lazy">
+                <span class="stage-number">04</span>
+              </div>
+              <div class="stage-info">
+                <span class="stage-kicker">RAÍCES Y CONEXIONES</span>
+                <h3>Australia desde Latinoamérica</h3>
+                <p>Historias y comunidad</p>
+                <span class="stage-link">Descubre más
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#aprovecha" class="stage-card">
+              <div class="stage-image">
+                <img src="media/australia-aprovecha.jpg"
+                  alt="Naturaleza y paisajes para explorar Australia"
+                  loading="lazy">
+                <span class="stage-number">05</span>
+              </div>
+              <div class="stage-info">
+                <span class="stage-kicker">MÁS ALLÁ DE LA RUTINA</span>
+                <h3>Aprovecha Australia</h3>
+                <p>Experiencias, naturaleza y viajes</p>
+                <span class="stage-link">Descubre más
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="stage-note">
+              <span class="handwritten">Tu camino, a tu manera.</span>
+              <h3>No hay una sola forma de vivir Australia.</h3>
+              <p>
+                Cada experiencia es diferente. Aquí encontrarás ideas,
+                aprendizajes y herramientas para construir la tuya.
+              </p>
+              <a href="#recursos" class="text-link">
+                Empieza por aquí
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HISTORIAS -->
+    <section class="aus-stories section-space" id="historias">
+      <div class="container">
+
+        <div class="stories-heading">
+          <div>
+            <span class="section-kicker">EXPERIENCIAS QUE NOS CONECTAN</span>
+            <h2>Historias para inspirarte</h2>
+            <p>
+              Reflexiones, experiencias y aprendizajes de un camino
+              que nunca es exactamente como lo imaginamos.
+            </p>
+          </div>
+
+          <a href="blog.html" class="text-link">
+            Explora el blog
+            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <article class="story-card">
+              <a href="posts-blog/australia.html"
+                class="story-image-link">
+                <img src="media/bridge.jpg"
+                  alt="Puente y paisaje urbano de Australia"
+                  loading="lazy">
+              </a>
+              <div class="story-content">
+                <span class="story-category">MI EXPERIENCIA</span>
+                <h3>¿Por qué Australia?</h3>
+                <p>
+                  ¿Qué tiene un lugar tan lejano que nos impulsa
+                  a dejar lo conocido y empezar una aventura?
+                </p>
+                <a href="posts-blog/australia.html" class="text-link">
+                  Leer historia
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="story-card story-placeholder">
+              <div class="story-content">
+                <span class="story-category">PRÓXIMAMENTE</span>
+                <h3>Empezar de nuevo en otro país</h3>
+                <p>
+                  Las expectativas, los cambios y todo lo que
+                  descubrimos cuando nos atrevemos a salir de lo conocido.
+                </p>
+                <span class="text-link">Una historia por contar</span>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- NAVEGACIÓN POR PILARES -->
+    <section class="aus-topics section-space" id="temas">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <span class="section-kicker">EXPLORA POR TEMA</span>
+          <h2>Encuentra tu próximo paso</h2>
+          <p>
+            Accede directamente a la etapa que más se relaciona
+            con lo que estás viviendo.
+          </p>
+        </div>
+
+        <div class="topic-list">
+
+          <article class="topic-row" id="antes">
+            <span class="topic-number">01</span>
+            <div>
+              <h3>Antes de Australia</h3>
+              <p>Motivaciones, expectativas y decisiones antes de emigrar.</p>
+            </div>
+            <a href="#recursos" aria-label="Explorar Antes de Australia">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="topic-row" id="preparacion">
+            <span class="topic-number">02</span>
+            <div>
+              <h3>Prepárate para Australia</h3>
+              <p>Planificación, presupuesto y preparativos para tu llegada.</p>
+            </div>
+            <a href="#recursos" aria-label="Explorar preparación para Australia">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="topic-row" id="vivir">
+            <span class="topic-number">03</span>
+            <div>
+              <h3>Vivir en Australia</h3>
+              <p>Vivienda, trabajo, trámites y vida cotidiana.</p>
+            </div>
+            <a href="#recursos" aria-label="Explorar la vida en Australia">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="topic-row" id="latinoamerica">
+            <span class="topic-number">04</span>
+            <div>
+              <h3>Australia desde Latinoamérica</h3>
+              <p>Identidad, nostalgia, vínculos y experiencias compartidas.</p>
+            </div>
+            <a href="#recursos" aria-label="Explorar historias desde Latinoamérica">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="topic-row" id="aprovecha">
+            <span class="topic-number">05</span>
+            <div>
+              <h3>Aprovecha Australia</h3>
+              <p>Escapadas, naturaleza, actividades y nuevas experiencias.</p>
+            </div>
+            <a href="#recursos" aria-label="Explorar experiencias en Australia">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- RECURSOS GRATUITOS -->
+    <section class="aus-resources section-space" id="recursos">
+      <div class="container">
+
+        <div class="resources-intro">
+          <span class="section-kicker">UN POCO DE AYUDA EN EL CAMINO</span>
+          <h2>Recursos para tu camino</h2>
+          <p>
+            Herramientas prácticas para organizar tus ideas,
+            preparar tus próximos pasos y encontrar información útil.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-4">
+            <article class="resource-card">
+              <div class="resource-icon">
+                <i class="far fa-compass" aria-hidden="true"></i>
+              </div>
+              <span class="resource-label">PRÓXIMAMENTE</span>
+              <h3>Prepara tu llegada</h3>
+              <p>
+                Una checklist para empezar a organizar las tareas
+                y los preparativos de tu viaje.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="resource-card">
+              <div class="resource-icon">
+                <i class="fas fa-wallet" aria-hidden="true"></i>
+              </div>
+              <span class="resource-label">PRÓXIMAMENTE</span>
+              <h3>Organiza tu presupuesto</h3>
+              <p>
+                Una herramienta para estimar tus gastos iniciales
+                y planificar mejor tus recursos.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="resource-card">
+              <div class="resource-icon">
+                <i class="far fa-map" aria-hidden="true"></i>
+              </div>
+              <span class="resource-label">PRÓXIMAMENTE</span>
+              <h3>Los primeros 30 días</h3>
+              <p>
+                Ideas para organizarte y familiarizarte con tu
+                nueva vida después de llegar.
+              </p>
+            </article>
+          </div>
+
+        </div>
+
+        <p class="resource-note">
+          Los recursos estarán disponibles gratuitamente a medida
+          que los vayamos creando.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- CONTACTO / FUTUROS SERVICIOS -->
+    <section class="aus-contact section-space" id="contacto">
+      <div class="container">
+        <div class="contact-inner">
+
+          <span class="section-kicker">SIGAMOS TRAZANDO EL CAMINO</span>
+
+          <h2>
+            ¿Tienes una pregunta sobre tu experiencia en Australia?
+          </h2>
+
+          <p>
+            Cuéntame qué estás buscando o qué te gustaría encontrar
+            en este espacio. Tus preguntas también pueden inspirar
+            futuros recursos e historias.
+          </p>
+
+          <a href="mailto:info@trazandouncamino.com"
+            class="btn-aus btn-aus-dark">
+            Escríbeme
+            <i class="far fa-envelope" aria-hidden="true"></i>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-  <div class="copyr-home">
-      <p>© 2026 Trazando un camino | Todos los derechos reservados.</p>
-  </div>
-</footer>
+
+  <!-- FOOTER -->
+  <footer class="aus-footer">
+    <div class="container">
+      <a href="index.html" class="footer-brand">
+        Trazando Un Camino
+      </a>
+
+      <p>Todos tenemos algo por contar.</p>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/trazandouncamino/"
+          aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://open.spotify.com/show/21eguq9j9ihajmRmVfHLV2"
+          aria-label="Spotify" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-spotify" aria-hidden="true"></i>
+        </a>
+
+        <a href="mailto:info.trazandocamino@gmail.com"
+          aria-label="Correo electrónico">
+          <i class="far fa-envelope" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        © 2026 Trazando Un Camino | Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
