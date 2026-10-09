@@ -776,6 +776,8 @@ p {
 
 
 
+
+
 /* =========================================
    RESPONSIVE — TABLETS
 ========================================= */
@@ -783,6 +785,17 @@ p {
 @media (max-width: 991px) { 
     /* General sections */ 
     
+
+    .fixed-bar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    .navbar-align {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
     .aus-section { 
         padding: 70px 0; 
     } 
