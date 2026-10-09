@@ -774,3 +774,133 @@ p {
     text-align: center; 
 }
 
+
+
+/* =========================================
+   RESPONSIVE — TABLETS
+========================================= */
+
+@media (max-width: 991px) { 
+    /* General sections */ 
+    
+    .aus-section { 
+        padding: 70px 0; 
+    } 
+
+    .aus-section-heading { 
+        margin-bottom: 36px; 
+    }
+
+
+/* Hero */ 
+    .aus-hero { 
+        min-height: 540px; 
+        background-position: center center; 
+    }
+
+/* Cards */ 
+    .aus-pillar-card .card-body, .aus-story-card .card-body { 
+        padding: 22px; 
+    }
+
+}
+
+
+/* =========================================
+   RESPONSIVE — MOBILE
+========================================= */
+
+ @media (max-width: 576px) {
+      
+    
+    /* General sections */ 
+    
+    .aus-section { 
+        padding: 48px 0; 
+    }
+
+    .aus-section-heading { 
+        padding: 0 12px; 
+        margin-bottom: 30px; 
+    }
+
+    .aus-section-heading h2 { 
+        font-size: 2rem; 
+    }
+
+
+    /* Hero */ 
+      
+      .aus-hero { 
+        min-height: 480px; 
+        background-position: center center; 
+    } 
+    
+    .aus-hero h1 { 
+        font-family: revert; 
+        font-size: clamp(2rem, 8vw, 3rem); 
+    } 
+    
+    .aus-hero h1 em { 
+        font-family: inherit; 
+    } 
+    
+
+    /* Pillar cards */ 
+    .aus-pillar-card .card-body { 
+        padding: 22px; 
+    }
+
+    /* Topic cards */ 
+    .aus-topic-card { 
+        padding: 22px; 
+    }
+
+    /* Story cards */ 
+    .aus-story-card .card-body { 
+        padding: 22px; 
+    }
+
+    /* Resource cards */ 
+    .aus-resource-card { 
+        padding: 22px; 
+    }
+
+    /* Contact section */ 
+    .aus-contact { 
+        padding: 52px 20px; 
+    }
+
+    .aus-contact h2 { 
+        font-size: 2rem; 
+    }
+    
+    /* Footer */ 
+    
+    .aus-footer { 
+        padding: 36px 0 20px; 
+        text-align: center; 
+    } 
+    
+    .aus-footer > .container { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+     } 
+     
+     .footer-brand { 
+        font-size: 23px; 
+    } 
+    
+    .footer-socials { 
+        justify-content: center; 
+        align-items: center; 
+        gap: 18px; } 
+        
+        
+    .footer-copy { 
+        width: 100%; 
+        text-align: center; 
+    } 
+
+}
